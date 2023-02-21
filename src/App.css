@@ -1,0 +1,134 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* overflow: hidden; */
+  justify-content: center;
+}
+
+.controlZone {
+  width: 20vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 0px;
+  border-left: 1px solid lightcyan;
+}
+
+.makeZone {
+  width: 1300px;
+  height: 800px;
+  display: flex;
+  border: 1px solid white;
+  left: 200px;
+  top: 200px;
+}
+
+.controlBtn {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.controlBtn:nth-child(1) {
+  margin-top: 20px;
+}
+
+.itemZone {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.itemMale {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid lightgreen;
+  position: absolute;
+}
+
+.itemAfter {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid lightgreen;
+  position: absolute;
+  transform: translate(400px, 75px);
+}
+
+.itemFemale {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid lightcoral;
+  position: absolute;
+}
+
+.vertical {
+  width: 300px;
+  height: 10px;
+  background-color: #888;
+  position: absolute;
+}
+
+.horizontal {
+  width: 10px;
+  height: 300px;
+  background-color: #888;
+  position: absolute;
+}
+
+.makeBtn {
+  margin-bottom: 10px;
+  background-color: lightgray;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.selectType {
+  height: 45px;
+  border-radius: 5px;
+  background-color: lightgray;
+  color: black;
+}
+
+.numInput {
+  display: flex;
+  align-items: center;
+  width: 35px;
+  background-color: white;
+  color: black;
+  border: 0px;
+  border: 1px solid black;
+}
+
+.numInput:focus {
+  outline: none;
+}
+
+.numInput::-webkit-outer-spin-button,
+.numInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.delBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: red;
+  margin: 0;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin-top: 10px;
+  border: 1px solid red;
+  border-radius: 50%;
+}
